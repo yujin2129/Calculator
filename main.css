@@ -1,0 +1,45 @@
+h3{
+    font-size: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.calculator_container{
+    max-width: 350px;
+    margin: 20px auto 0px;
+}
+.result{
+    height: 75px;
+    font-size: 40px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 9px;
+}
+.calculator{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+}
+.calculator:last-child{
+    margin-bottom: 0;
+}
+button{
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    border-radius: 40px;
+}
+button:last-child{
+    background-color: rgb(255, 191 , 89);
+    color: white;
+}
+button:active{
+    background-color: dimgrey;
+}
+button:last-child:active{
+    background-color: chocolate;
+}
+.long_button{
+    width: 170px;
+}
